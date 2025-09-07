@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width, shrink-to-fit=no"/>
+  <style>
+    .line {
+      width: 100%;
+      background: black;
+      height: 2px;
+    }
+
+    .wrapper-table {
+      width: 100%;
+    }
+
+    .wrapper-tr {
+      display: flex;
+      border-bottom: 1px solid #ddd;
+      justify-content: space-between;
+    }
+
+    .wrapper-th-start {
+      font-weight: bold;
+      width: 105px;
+      text-align: center;
+    }
+
+    .wrapper-th-end {
+      display: flex;
+      width: 100%;
+      align-items: center;
+    }
+
+    .m15 {
+      margin: 15px;
+    }
+
+    .border-info {
+      border-right: 1px solid #ddd;
+    }
+
+    .new-payments {
+      margin-top: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 0 30px 0;
+      font-size: 0.9em;
+      font-family: sans-serif;
+      min-width: 400px;
+      width: 100%;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    table, th, td {
+      border: 1px solid lightgrey;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+    }
+  </style>
+  <title>Report</title>
+</head>
+<body>
+<div style="margin: 20px">
+  <h2>Totals</h2>
+
+  <h2>Payments</h2>
+  {{paidLoans reportLoansPaid}}
+  <h2 style="margin-top: 40px">Overdue payments</h2>
+  {{overdueLoans reportLoansOverdue}}
+</div>
+</body>
+</html>

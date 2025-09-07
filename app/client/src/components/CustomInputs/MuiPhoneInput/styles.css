@@ -1,0 +1,23 @@
+.PhoneInputCountryIcon--border {
+  width: 50px;
+  height: 28px;
+  box-shadow: none;
+  background: transparent;
+}
+
+.PhoneInputCountrySelectArrow {
+  display: none;
+}
+
+.PhoneInputCountrySelect {
+  display: none;
+}
+
+.PhoneInputCountry {
+  margin-right: 10px;
+}
+
+.PhoneInput {
+  display: flex;
+  align-items: center;
+}

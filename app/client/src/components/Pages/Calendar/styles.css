@@ -1,0 +1,76 @@
+.fc-button-primary {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border: 0 !important;
+  user-select: none !important;
+  font-size: 0.875rem !important;
+  line-height: 1.75 !important;
+  letter-spacing: 0.02857em !important;
+  text-transform: uppercase !important;
+  min-width: 64px !important;
+  padding: 5px 15px !important;
+  border-radius: 4px !important;
+  background-color: #1976d2 !important;
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%) !important;
+  margin: 0 5px !important;
+}
+
+.fc-button-primary:active {
+  box-shadow: 0 5px 5px -3px rgb(0 0 0 / 20%), 0 8px 10px 1px rgb(0 0 0 / 14%), 0 3px 14px 2px rgb(0 0 0 / 12%) !important;
+}
+
+.fc-button-primary:hover {
+  text-decoration: none !important;
+  background-color: #1565c0 !important;
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 20%), 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%) !important;
+}
+
+.fc-button-primary:disabled {
+  font-weight: bold !important;
+  background: #e0e0e0 !important;
+  color: #a8acaf !important;
+  box-shadow: none !important;
+}
+
+.fc-h-event, .fc-v-event {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  background: transparent !important;
+  border: none !important;
+}
+
+.fc-event-main {
+  color: #352721 !important;
+}
+
+
+@media (max-width: 600px) {
+  .fc-toolbar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 150px;
+    align-items: center;
+  }
+
+  .fc-view-harness-active {
+    height: 500px !important;
+    overflow: auto !important;
+  }
+
+  .fc-dayGridMonth-view {
+    width: 600px !important;
+    height: 430px !important;
+  }
+
+  .fc-timeGridWeek-view {
+    width: 600px !important;
+    height: 600px !important;
+  }
+
+  .calendar-search {
+    width: 100%;
+  }
+
+
+}

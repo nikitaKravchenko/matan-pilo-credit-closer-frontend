@@ -1,0 +1,10 @@
+*node_modules
+
+.DS_Store
+*.idea
+*.next
+*.env
+*build
+*test.js
+*yarn-error.log
+*content.html

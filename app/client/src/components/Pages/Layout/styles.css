@@ -1,0 +1,32 @@
+.backgroundWindow {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: flex-start;
+  background: rgb(47,47,47);
+  background-size: cover;
+
+}
+
+.cardLayout {
+  width: 300px;
+  margin-top: 6em;
+  border-radius: 10px;
+  padding: 1em;
+  background: white;
+}
+
+.layoutButtons {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.layoutLink {
+  font-size: 13px;
+  margin: 0 0 12px 8px;
+  text-decoration: solid;
+  font-weight: 600;
+}
