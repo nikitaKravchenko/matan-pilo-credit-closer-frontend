@@ -1,0 +1,203 @@
+apt update
+apt upgrade
+ufw app list
+ufw allow OpenSSH
+ufw status
+apt install nginx
+ufw allow 'Nginx HTTP'
+ufw allow 'Nginx HTTPS'
+ufw app list
+mkdir /var/www/creditcloser.link/html
+mkdir /var/www/creditcloser.link/
+mkdir /var/www/creditcloser.link/html
+cd /var/www/
+ls
+chown -R ubuntu:ubuntu creditcloser.link/html/
+chmod -R 755 creditcloser.link/
+apt install git
+nano /etc/nginx/sites-available/creditcloser.link
+ln -s /etc/nginx/sites-available/creditcloser.link /etc/nginx/sites-enabled/
+nano /etc/nginx/nginx.conf
+nginx -rt
+nginx -t
+service nginx restart
+snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+certbot --nginx -d creditcloser.link
+certbot renew --dry-run
+nano /etc/nginx/sites-available/creditcloser.link
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt install nodejs
+node -v
+npm install pm2@latest -g
+redis-server
+apt install redis-server
+nano /etc/redis/redis.conf
+systemctl restart redis.service
+redis-cli
+openssl rand 60 | openssl base64 -A
+nano /etc/redis/redis.conf
+systemctl restart redis.service
+apt install postgresql postgresql-contrib
+sudo -i -u postgres
+apt install build-essential
+sudo -i -u postgres
+sudo adduser matan
+sudo -i -u matan
+top
+nano /etc/nginx/sites-available/creditcloser.link
+nginx -t
+nano /etc/nginx/sites-available/creditcloser.link
+nginx -t
+service nginx restart
+certbot renew --dry-run
+certbot renew
+nano /etc/nginx/sites-available/default
+nano /etc/nginx/sites-available/creditcloser.link
+nginx -t
+service nginx restart
+sudo -i -u postgres
+sudo -i -u matan
+nano /etc/nginx/sites-available/creditcloser.link
+nginx -t
+service nginx restart
+nano /etc/nginx/sites-available/creditcloser.link
+service nginx restart
+sudo -i -u matan
+journalctl --vacuum-size=100M
+df -h
+vim ~/.ssh/authorized_keys
+df -h
+sudo -u postgres psql
+apt install ncdu
+sudo -u postgres psql
+ll
+ps auxf|less
+redis-cli
+history|less
+cd /var/www/creditcloser.link/
+ll
+cd html/
+ll
+docker ps -a
+ll
+ll
+cd app/
+ll
+cd server/
+ll
+less .env
+redis-cli
+l
+ll
+cd src/
+ll
+grep -r 'password' ./*
+less ./controllers/auth.controllers/reset-password.controller.js
+ncdu /
+LANG=en_US.UTF-8 snap list --all | awk '/disabled/{print $1, $3}'
+ncdu /
+ncdu /var/lib/
+rm /var/lib/snapd/cache/*
+df -h
+ncdu /var/
+rm /var/lib/snapd/snaps/lxd_29351.snap
+rm /var/lib/snapd/snaps/core22_2010.snap
+rm /var/lib/snapd/snaps/core24_988.snap
+rm /var/lib/snapd/snaps/core20_2582.snap
+rm /var/lib/snapd/snaps/core18_2855.snap
+snap list --all | grep disabled
+rm /var/lib/snapd/snaps/certbot_4730.snap
+rm /var/lib/snapd/snaps/snapd_24718.snap
+rm /var/lib/snapd/snaps/amazon-ssm-agent_9881.snap
+snap list --all | grep disabled
+snap list --all | grep disabled | awk '{print "sudo snap remove " $1 " --revision=" $3}'
+df -h
+snap list --all | grep disabled | awk '{print $1, $3}' | while read name revision; do sudo snap remove "$name" --revision="$revision"; done
+snap list --all | grep disabled
+df -h
+redis-cli
+ncdu /
+journalctl -l|less
+journalctl --disk-usage
+journalctl --list-boots
+vim /etc/systemd/journald.conf
+journalctl --vacuum-size=50M
+systemctl restart systemd-journald
+journalctl --disk-usage
+systemd-analyze verify /etc/systemd/journald.conf
+systemd-analyze verify
+df -h
+sudo -u postgres psql
+ll
+df -h
+df
+journalctl -l|less
+ll
+ll -h /var/log/
+ll -lah /var/log/
+ll
+sudo -u postgres psql
+ll
+less index.js
+cd ..
+ll
+cd ..
+ll
+df -h
+vim /home/ubuntu/.ssh/authorized_keys
+grep -r 'author' /etc/cron.d*
+grep -r 'author' /etc/cron
+grep -r 'author' /etc/cron*
+crontab -e
+less ~/.ssh/authorized_keys
+sudo -u postgres psql
+ps aux|grep cre
+ps auxf|less
+less /usr/share/ec2-instance-connect/eic_run_authorized_keys
+ps auxf|less
+less /etc/nginx/sites-enabled/creditcloser.link
+ll /var/www/creditcloser.link/html/app/client/build
+ll /var/www/creditcloser.link/html/app/
+less /var/www/creditcloser.link/html/app/server/.env
+less /var/www/creditcloser.link/html/app/server/.env.example
+less /var/www/creditcloser.link/html/app/server/src/config/index.js
+cd /var/www/creditcloser.link/
+ll
+cd html/
+ll
+cd docker/
+ll
+less docker-compose.local.yml
+cd nginx/
+ll
+less nginx.conf
+ss -na|grep 3001
+ps auxf|less
+less /etc/nginx/sites-enabled/creditcloser.link
+ss -na|grep 3000
+less /etc/nginx/sites-enabled/creditcloser.link
+less /etc/crontab
+less /etc/cron.weekly/
+grep -r 'certbot' /etc/cron.*
+crontab -e
+history|less
+redis-cli
+less /var/www/creditcloser.link/html/.env
+redis-cli
+less /var/www/creditcloser.link/html/.env
+grep -r 'REDIS_PASSWORD' /var/www/creditcloser.link/html/.*
+redis-cli
+ll /var/www/creditcloser.link/html/./app/server/.env
+ll /var/www/creditcloser.link/html/app/client/package.json
+less /var/www/creditcloser.link/html/app/client/package.json
+less /etc/nginx/sites-enabled/creditcloser.link
+ll /var/www/creditcloser.link/html/app/client/build/
+ll /var/www/creditcloser.link/html/app/client/build/index.html
+less /var/www/creditcloser.link/html/app/client/build/index.html
+less /var/www/creditcloser.link/html/app/client/build/static/js/main.199cc21c.js
+ll
+cd /var/www/creditcloser.link/
+ll
+cd html/
+ll

@@ -1,0 +1,489 @@
+ыгвщ -ш
+sudo -i
+cd /var/www/html/
+sudo -i
+cd ..
+nano creditcloser.link/html/index.html
+sudo -i
+pm2
+sudo -i
+ls
+cd creditcloser.link/
+ls -la
+cd html/
+nano hello.js
+pm2 start hello.js
+pm2 list
+sudo -i
+ssh-keygen
+cat .ssh/id_rsa.pub
+cd /var/www/creditcloser.link/
+pm2 list
+pm2 stop hello
+pm2 rm hello
+pm2 delete hello
+cd html/
+rm hello.js
+
+ls -la
+rm index.html
+
+cat ~/.ssh/id_rsa.pub
+
+ssh-keygen -t rsa -b 4096
+cat ~/.ssh/id_rsa.pub
+
+ssh-keygen -t rsa -b 2048
+cat ~/.ssh/id_rsa.pub
+
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+
+ды
+ls
+git checkout -b without-next origin/without-next
+git pull
+ls -la
+cd docker/
+ls
+cd ..
+ls
+cd app
+ls
+cd client/
+npm i
+cd ..
+cd server/
+npm i
+cd ../../
+git status
+git checkout -b master
+git status
+git branch -a
+git checkout master
+git branch -a
+ls -la
+git branch without-next
+git checkout without-next
+ls
+git status
+git checkout master
+git pull
+cd /var/www/creditcloser.link/html/
+sudo -i
+cd app
+ls
+cd client/
+ls
+ls -la
+cp .env.example .env
+nano .env
+git pull
+ls
+ls -la
+nano .env
+npm run build
+cd ..
+ls -la
+cd server/
+ls
+npm i
+ls -la
+cp .env.example .env
+nano .env
+ls
+node src/index.js
+node --experimental-specifier-resolution=node src/index.js
+sudo -i
+cd /var/www/creditcloser.link/html/
+ls
+cd app/server/
+ls
+node --experimental-specifier-resolution=node src/index.js
+sudo -i
+cd ..
+ls
+ls -la
+cd ..
+ls -la
+cd app/server/
+nano .env
+sudo -i
+node --experimental-specifier-resolution=node src/index.js
+sudo -i
+node --experimental-specifier-resolution=node src/index.js
+ls -la
+sudo -i
+node --experimental-specifier-resolution=node src/index.js
+nano src/index.js
+node --experimental-specifier-resolution=node src/index.js
+sudo -i
+node --experimental-specifier-resolution=node src/index.js
+pm2 start -- --experimental-specifier-resolution=node src/index.js
+pm2 start node -- --experimental-specifier-resolution=node src/index.js
+pm2 list
+cd /var/www/creditcloser.link/html/
+git status
+git checkout app/server/src/index.js
+git status
+git pull
+cd app/client/
+npm run build
+cd ../server/
+npm run migrate
+npm run seed
+pm2 list
+pm2 restart node
+pm2 list
+pm2 logs
+npm i
+pm2 restart node
+pm2 logs
+cd ../../
+git pull
+cd app/server/
+cd ../../
+pm2 restart node
+pm2 logs
+sudo -i
+git pull
+cd app/server/
+npm run down-migrate[TEST]
+npm run migrate
+npm run seed
+pm2 restart node
+sudo -i
+nano .env
+pm2 logs
+sudo -i
+pm2 logs
+nano src/services/users/index.js
+pm2 restart node
+pm2 logs
+pm2 restart node
+nano src/services/users/index.js
+nano src/lib/passport-local.js
+pm2 restart node
+pm2 logs
+nano src/lib/passport-local.js
+
+pm2 logs
+nano src/lib/passport-local.js
+nano src/services/auth/session.js
+pm2 restart node
+pm2 logs
+nano src/services/auth/session.js
+pm2 restart node
+pm2 logs
+nano .env
+nano src/services/auth/session.js
+pm2 restart node
+pm2 logs
+cd /var/www/creditcloser.link/
+ls
+cd html
+ls -la
+git pull
+git status
+git checkout app/server/src/lib/passport-local.js app/server/src/services/auth/session.js app/server/src/services/users/index.js
+git status
+git pull
+pm2 list
+pm2 stop node
+pm2 remove node
+pm2 delete node
+make deploy
+cp .env.example .env
+make deploy
+pm2 start npm -- run start
+pm2 logs
+pm2 stop npm
+pm2 remove npm
+pm2 delete npm
+ls -la
+cd app/server/
+pm2 start npm -- run start
+pm2 logs
+pm2 restart npm -- run start
+git status
+ls
+ls -a
+cd /var/www/creditcloser.link/html/
+ls
+git status
+ls -la
+git pull
+git status
+pm2 list
+pm2 stop node
+pm2 delete node
+make deploy
+make sh-run-api
+ls -a
+cd app/
+ls
+cd server/
+ls
+ls -a
+cd ../../docker/
+ls -a
+cd ..
+cd app/server/
+npm run
+npm run migrate
+npm run seed
+cd ../..
+pm2 list
+exit
+ls
+cd var
+cd /var
+ls -a
+cd www/creditcloser.link/html/
+ls
+git pull
+make deploy
+cd /var/www/creditcloser.link/html/
+ls -a
+cd app/server/
+npm run down-migrate
+npm run migrate~
+npm run migrate
+npm run seed
+cd ../../
+ls
+git pull
+make deploy
+cd app/server/
+npm run down-migrate
+npm run migrate
+npm run seed
+cd ../..]
+cd ../..
+git pull
+make deploy
+cd /var/www/creditcloser.link/
+ls
+cd html/
+ls
+git pull
+git status
+git checkout app/server/package-lock.json
+git status
+git pull
+git stus
+git status
+ls
+cd app/server/
+ls
+ls -a
+nano .env
+cd ../..
+make deploy
+cd app/server/src/migrations/
+cd seeders/
+ls
+nano 20220808110507-setting.js
+nano 20220808083508-user.js
+cd ../../../
+ls
+npm run seed
+git status
+git checkout src/migrations/seeders/20220808110507-setting.js src/migrations/seeders/20220808083508-user.js
+git status
+cd src/migrations/seeders/
+nano 20220808110507-setting.js
+nano 20220808083508-user.js
+cd /var/www/creditcloser.link/html/
+ls
+git status
+git pull
+cd app/server/
+npm run down-migrate
+npm run migrate
+npm run down-migrate
+npm run migrate
+npm run seed
+cd ../../
+ls
+make deploy
+git pull
+make deploy
+cd /var/www/creditcloser.link/html/
+ls
+git pull
+cd app/server/src/migrations/migrations/
+ls
+nano 20220808120551-create-customer.js
+npm run down-migrate
+npm run migrate
+npm run seed
+cd ../../
+../../
+cd ../../
+cd ..
+ls
+make deploy
+cd /var/www/creditcloser.link/html/
+ls
+git status
+git checkout app/server/src/migrations/migrations/20220808120551-create-customer.js
+git status
+git pull
+nake deploy
+make deploy
+cd /var/www/creditcloser.link/html/
+ls
+git status
+git pull
+make deploy
+cd /var/www/creditcloser.link/html/
+ls
+git pull
+make deploy
+.exit
+exit
+cd /var/www/creditcloser.link/html/
+ls
+git status
+git pull
+make deploy
+git pull
+make deploy
+ls
+pm2 list
+ls
+cd /var/www/
+ls
+cd creditcloser.link/
+ls
+nano /etc/nginx/sites-enabled/creditcloser.link
+ls
+cd html/
+ls
+cd app/
+ls
+cd server/
+ls
+ll
+nano package.json
+pm2 start "npm run start"
+pm2 ;logs
+pm2 logs
+ls
+pm2 list
+pm2 startup
+sudo env PATH=$PATH:/usr/bin /usr/lib/node_modules/pm2/bin/pm2 startup systemd -u ubuntu --hp /home/ubuntu
+pm2 save
+pm2 list
+ls
+nano /etc/nginx/sites-enabled/creditcloser.link
+sudo su
+vim ~/.ssh/authorized_keys
+df -h
+ncdu /
+cd /var/log/
+ll
+ll -h
+ps auxf|less
+apt install ncdu
+sudo apt install ncdu
+ll
+ll -h
+du -sh ./
+du -sh ./redis/
+du -h --max-depth=1 | sort -hr
+cd ./journal/
+ls
+ll
+cd 9fdc7baa40cf4d1c8976119d4b57f90d/
+ll
+journalctl --vacuum-size=100M
+sudo su
+vim ~/.ssh/authorized_keys
+sudo su
+history|less
+cd /home/
+ll
+mkdir test
+cd ubuntu/
+ll
+mkdir test
+cd test/
+
+ll
+cd ,,
+cd ..
+ll
+rm -rf test/
+history|less
+cd /var/www/creditcloser.link/
+git st
+git status
+ll
+cd html/
+ll
+git status
+less .git/HEAD
+less .git/ORIG_HEAD
+grep -r 'https://' .git/
+grep -r 'bitbu' .git/
+дд
+ll
+less .env
+psq
+psql
+ll
+less .env
+cd app/server/
+ll
+less .env
+redis-cli
+less /etc/nginx/sites-enabled/creditcloser.link
+grep -r 'sess:' ./*
+grep -r 'sess' ./*
+less .env
+redis-cli
+grep -r 'password' ./*
+less ./src/helpers/user.js
+ll
+cd src/
+ll
+cd con
+ll
+cd controllers/
+ll
+cd auth.controllers/
+ll
+less log
+less login.controller.js
+cd ..
+ll
+cd ..
+ll
+less services/users/index.js
+less helpers/user.js
+df -h
+ll
+vim ~/.ssh/id_ed25519
+vim ~/.ssh/id_rsa.pub
+vim ~/.ssh/authorized_keys
+vim ~/.ssh/known_hosts
+df -h
+ncdu /
+less /etc/crontab
+less /etc/cron.monthly/
+grep 'cert' /etc/*
+grep 'certbot' /etc/cron*
+grep -r 'certbot' /etc/cron*
+crontab -e
+ll
+less index.js
+ll
+psql
+sudo su
+psql
+sudo su
+less ~/.ssh/authorized_keys
+ll ~/.ssh/authorized_keys
+sudo su
